@@ -8,9 +8,9 @@ import re
 from pdb import set_trace
 
 def vote2vote (vote):
-  if vote == 'Da':
+  if vote == 'DA':
     return 1
-  if vote == 'Ne':
+  if vote == 'NE':
     return -1
   else:
     return 0
