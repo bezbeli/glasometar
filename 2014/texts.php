@@ -50,7 +50,7 @@ $text = array(
    
    //'comparison_parties_eu' => 'Poređenje sa strankama u EU',
    //'comparison_eu_explained' => '15 issues that are in the Slovak election calculator, are also in electoral calculators in other EU countries. Which side are you there next?',
-   'missing_table_description' => 'Za ove stranice <strong> pitanja nisu odgovorena </strong>: ',
+   'missing_table_description' => 'Za ove stranke <strong> pitanja nisu odgovorena </strong>: ',
    
    //fb
    'result_fb_appid' => "647475721940594",

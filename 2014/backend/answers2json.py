@@ -8,9 +8,9 @@ import re
 from pdb import set_trace
 
 def vote2vote (vote):
-  if vote == 'DA':
+  if vote == 'Da':
     return 1
-  if vote == 'NE':
+  if vote == 'Ne':
     return -1
   else:
     return 0
@@ -37,13 +37,13 @@ with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/backend/source/
 #get votes and details (comments)
 i = 0
 details = {}
-print ("mismatching codes:")
-with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/backend/source/responses2014.tsv','r') as f:
+print ("Mismatching codes:")
+with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/backend/source/answers.tsv','r') as f:
   csvreader = csv.reader(f,delimiter="\t")
   for row in csvreader:
     if i == 0:
       questions = {} # col: id
-      for j in range(0,40):
+      for j in range(0,6):
         col = (4 + 2*j)
         questions[col] = re.search('\d*', row[col]).group(0)
       #print questions
@@ -74,7 +74,7 @@ with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/backend/source/
 
 #print(voters)
 #reorder as list and deselect voters with no votes:
-print("not answered:")
+print("Not answered:")
 data = []
 nodata = []
 for key in voters:

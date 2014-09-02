@@ -5,7 +5,7 @@ import json
 
 i = 0
 questions = []
-with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/backend/source/pitanja.tsv','r') as f:
+with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/backend/source/questions.tsv','r') as f:
   csvreader = csv.reader(f,delimiter="\t")
   for row in csvreader:
     if i == 0:
