@@ -30,7 +30,6 @@
           {assign "fb_pos" "bottom"}
           {include "match-fb.tpl"}
           
-          {include "match-lower.tpl"}
 
       </div>
       <!-- /results -->

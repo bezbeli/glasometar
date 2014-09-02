@@ -36,3 +36,13 @@ i4nr14o9hv3jaqg2a3v3kjg5i0	calc2014ep	2014-09-01 16:09:58	q51=-1&c-51=on	127.0.0
 54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-01 21:23:42	q1=1&q2=-1&q3=-1&q4=1&q5=-1&q6=0&c-2=on&c-3=on&c-4=on&c-5=on	127.0.0.1
 54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-01 21:24:13	q1=-1&q25=-1&q41=0&c-1=on&c-25=on	127.0.0.1
 54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-01 21:50:40	q1=-1&q25=-1&q41=0&c-1=on&c-25=on	127.0.0.1
+54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-02 10:28:45	q1=-1&q4=-1&q6=-1	127.0.0.1
+i4nr14o9hv3jaqg2a3v3kjg5i0	calc2014ep	2014-09-02 10:29:00	q1=-1&q4=-1&q6=-1	127.0.0.1
+54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-02 10:36:47	q1=-1&q4=-1&q6=-1	127.0.0.1
+54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-02 10:36:50	q1=-1&q4=-1&q6=-1	127.0.0.1
+54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-02 10:36:53	q1=-1&q4=-1&q6=-1	127.0.0.1
+54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-02 10:37:05	q1=-1&q4=-1&q6=-1	127.0.0.1
+54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-02 10:37:07	q1=-1&q4=-1&q6=-1	127.0.0.1
+54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-02 10:38:11	q1=-1&q4=-1&q6=-1	127.0.0.1
+54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-02 10:48:10	q1=-1&q4=-1&q6=-1	127.0.0.1
+54mgoualhpnn80o9caqmn01166	calc2014ep	2014-09-02 10:49:44	q1=-1&q4=-1&q6=-1	127.0.0.1

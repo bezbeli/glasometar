@@ -7,7 +7,7 @@ $text = array(
   'election_code' => 'eu2014',
   'lang' => 'bs',
   //meta
-  'author' => 'ZastoNe.ba',
+  'author' => 'KohoVolit.eu 2014',
   'description' => 'Opšti/Opći izbori 2014. u BiH se približavaju! Glasometar će vam pomoći da saznate sa kojom partijom se najviše slažete!',
   'keywords' => 'Izbori 2014, Izbori BiH, Glasometar, glasometar kviz',
   //fb
