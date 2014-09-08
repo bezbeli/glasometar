@@ -11,7 +11,7 @@ $text = array(
   'description' => 'Opšti/Opći izbori 2014. u BiH se približavaju! Glasometar će vam pomoći da saznate sa kojom partijom se najviše slažete!',
   'keywords' => 'Izbori 2014, Izbori BiH, Glasometar, glasometar kviz',
   //fb
-  'og:image' => 'http://volebnakalkulacka.sk/image/logo.jpg',
+  'og:image' => 'http://glasometar.ba/image/glasometar_og_logo.png',
   //'og:title' => 'Volební kalkulačka',
   //'og:url' => 'http://volebnikalkulacka.cz',
   //'og:site_name' => 'Volební kalkulačka',
@@ -53,8 +53,8 @@ $text = array(
    'missing_table_description' => 'Za ove stranke <strong> pitanja nisu odgovorena </strong>: ',
    
    //fb
-   'result_fb_appid' => "647475721940594",
-  'result_fb_picture_link' => 'http://volebnakalkulacka.sk/europsky-parlament-2014/image/logo/',
+  'result_fb_appid' => "346936452142574",
+  'result_fb_picture_link' => 'http://glasometar.ba/2014/image/logo/',
   'result_fb_name' => '[Glasometar.ba] Moji stavovi se najviše podudaraju sa ovim partijama:',
   'result_fb_description_1' => '[Glasometar.ba] Moji stavovi se najviše podudaraju sa ovim partijama: ',
   'result_fb_description_match' => 'slaganje',
@@ -64,7 +64,7 @@ $text = array(
   'result_fb_description_3' => 'Sa kojom partijom se najvise slažete - Glasometar.ba',
   'result_fb_redirect_link' => 'http://glasometar.ba',
   'result_fb_link' => 'http://glasometar.ba/',
-  'result_fb_action' => "[{'name':'Koho voliť?','link':'http://volebnakalkulacka.sk/'}]",   
+  'result_fb_action' => "[{'name':'Za koga ćete glasati?','link':'http://glasometar.ba/'}]",   
    
    //tabs
    'result_results' => 'Rezultati',
