@@ -8,9 +8,9 @@ import re
 from pdb import set_trace
 
 def vote2vote (vote):
-  if vote == 'Da':
+  if vote == 'DA':
     return 1
-  if vote == 'Ne':
+  if vote == 'NE':
     return -1
   else:
     return 0
@@ -43,7 +43,7 @@ with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/backend/source/
   for row in csvreader:
     if i == 0:
       questions = {} # col: id
-      for j in range(0,6):
+      for j in range(0,32):
         col = (4 + 2*j)
         questions[col] = re.search('\d*', row[col]).group(0)
       #print questions
