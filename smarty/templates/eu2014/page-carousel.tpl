@@ -27,6 +27,10 @@
           {/if}
           <!-- /customization -->
           
+          <!-- utm -->
+            {include "page-utm.tpl"}
+          <!-- /utm -->
+          
         </form>
         {include "page-indicators.tpl"}
         {include "page-arrows.tpl"}
