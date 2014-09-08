@@ -47,6 +47,16 @@ if (isset($_GET['navbar'])) {
 //get prefilled user's values, if exist
 $user = json_encode(get_user_values());
 
+//get the utm (campaign) links
+// http://www.mequoda.com/articles/subscription_websites/the-mysterious-utm-code-explained/
+$us = array('source','medium','campaign');
+$utms = array();
+foreach ($us as $u) {
+  if (isset($_GET['utm_'.$u])) {
+    $utms[$u] = sanitize(($_GET['utm_'.$u]));
+  }
+}
+
 $smarty->assign('text',$text);
 $smarty->assign('background',$background);
 $smarty->assign('background_orig',$background_orig);
@@ -55,6 +65,7 @@ $smarty->assign('partnercss',$partnercss);
 $smarty->assign('user', $user);
 $smarty->assignByRef('questions', $questions);
 $smarty->assign('session_id',session_id());
+$smarty->assign('utms',$utms);
 $smarty->display('page.tpl');
 
 
