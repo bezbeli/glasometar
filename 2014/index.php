@@ -49,7 +49,7 @@ $user = json_encode(get_user_values());
 
 //get the utm (campaign) links
 // http://www.mequoda.com/articles/subscription_websites/the-mysterious-utm-code-explained/
-$us = array('source','medium','campaign');
+$us = array('source','medium','campaign','unique');
 $utms = array();
 foreach ($us as $u) {
   if (isset($_GET['utm_'.$u])) {

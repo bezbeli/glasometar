@@ -119,6 +119,7 @@ function calc_match($user,$set,$config,$extra=2) {
     if ($count == 0) $count = 1; // to allow match = 0/1 = 0;
     //read what data should go to result
     $res = array();
+    print_r($s);
     foreach ($config->result as $item) {
       $res[$item] = $s->$item;
     }
