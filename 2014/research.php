@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 
 // put full path to Smarty.class.php
 require('../../../usr/lib/php/Smarty-3.1.19/libs/Smarty.class.php');
@@ -7,6 +7,17 @@ $smarty = new Smarty();
 
 $smarty->setTemplateDir('../smarty/templates/eu2014');
 $smarty->setCompileDir('../smarty/templates_c');
+
+//get the utm (campaign) links
+// http://www.mequoda.com/articles/subscription_websites/the-mysterious-utm-code-explained/
+$us = array('source','medium','campaign','unique');
+$utms = array();
+foreach ($us as $u) {
+  if (isset($_GET['utm_'.$u])) {
+    $utms[$u] = sanitize(($_GET['utm_'.$u]));
+  }
+}
+$data['utm'] = $utms;
 
 $data['sex'] = array(
   array('woman', 'Ženski'),
