@@ -10,7 +10,7 @@ include("texts.php");
 include("common.php");
 
 // put full path to Smarty.class.php
-require('/usr/local/lib/php/Smarty-3.1.19/libs/Smarty.class.php');
+require('../../../usr/lib/php/Smarty-3.1.19/libs/Smarty.class.php');
 $smarty = new Smarty();
 
 $smarty->setTemplateDir('../smarty/templates/' . $text['election_code']);

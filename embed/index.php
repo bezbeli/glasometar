@@ -1,18 +1,18 @@
 <?php
 
 // put full path to Smarty.class.php
-require('/usr/local/lib/php/Smarty/libs/Smarty.class.php');
+require('../../../usr/lib/php/Smarty-3.1.19/libs/Smarty.class.php');
 $smarty = new Smarty();
 
-$smarty->setTemplateDir('../../smarty/templates');
-$smarty->setCompileDir('../../smarty/templates_c');
-$smarty->setCacheDir('../../smarty/cache');
-$smarty->setConfigDir('../../smarty/configs');
+$smarty->setTemplateDir('../smarty/templates');
+$smarty->setCompileDir('../smarty/templates_c');
+$smarty->setCacheDir('../smarty/cache');
+$smarty->setConfigDir('../smarty/configs');
 
 $calc2014ep = array (
   array(
-    'name' => 'Volebná kalkulačka EP 2014',
-    'friendly_url' => 'europsky-parlament-2014/',
+    'name' => 'Glasometar 2014',
+    'friendly_url' => '2014/',
     'selected' => true,
     'custom' => true
   ),

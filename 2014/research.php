@@ -2,7 +2,7 @@
 
 
 // put full path to Smarty.class.php
-require('/usr/local/lib/php/Smarty-3.1.19/libs/Smarty.class.php');
+require('../../../usr/lib/php/Smarty-3.1.19/libs/Smarty.class.php');
 $smarty = new Smarty();
 
 $smarty->setTemplateDir('../smarty/templates/eu2014');
@@ -28,7 +28,8 @@ $data['nationality'] = array(
 );
 
 $data['municipality'] = array(
-array('banovici-unsko-sanski-kanton','Banovići Unsko-sanski Kanton'),
+array('izaberite-opstinu','Izaberite opštinu'),
+array('banovici','Banovići'),
 array('berkovici','Berkovići'),
 array('bijeljina','Bijeljina'),
 array('bileca','Bileća'),

@@ -12,11 +12,11 @@ include("../common.php");
 include("../config.php");
 
 // put full path to Smarty.class.php
-require('/usr/local/lib/php/Smarty-3.1.19/libs/Smarty.class.php');
+require('../../../../usr/lib/php/Smarty-3.1.19/libs/Smarty.class.php');
 $smarty = new Smarty();
 
-$smarty->setTemplateDir('../../../smarty/templates/' . $text['election_code']);
-$smarty->setCompileDir('../../../smarty/templates_c');
+$smarty->setTemplateDir('../../smarty/templates/' . $text['election_code']);
+$smarty->setCompileDir('../../smarty/templates_c');
 
 //answers of voters
 $answers = json_decode(file_get_contents('../answers.json'));

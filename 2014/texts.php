@@ -32,8 +32,8 @@ $text = array(
   'calc_name' => 'Glasometar 2014',
   'page_question_yes' => 'DA',
   'page_question_no' => 'NE',
-  'page_question_neutral' => 'Ne znam',
-  'page_question_neutral_add' => ' / 	Ne znanima me',
+  'page_question_neutral' => 'Nemam mišljenje',
+  'page_question_neutral_add' => '',
   'page_important_questions' => 'Važna pitanja', 
   'page_important_legend' => '<strong>Označite pitanja koja su najvažnija za vas</strong>. Ovaj korak nije obavezan i možete ga preskočiti.',
   'page_important_skip' => 'Preskoči',
@@ -91,7 +91,7 @@ $text = array(
    'result_save_description' => 'Rezultat vašeg glasanja, uvijek se možete vratiti na ovu stranicu ako kopirate i sačuvate ovu adresu:',
    
    //google analytics tracking id
-   'google_tracking_id' => 'UA-8592359-12',   
+   'google_tracking_id' => 'UA-17907866-5',   
 
    //header
   'page_header_desktop' => "Glasometar 2014",

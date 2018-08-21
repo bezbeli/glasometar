@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Dotazník</title>
+	<title>Upitnik</title>
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
 	<!--<link rel="stylesheet" href="../_assets/css/jqm-docs.css"/>-->
 
@@ -19,7 +19,7 @@
    
 
 	<div data-role="header">
-		<h2>Dotazník pro MU a UHK</h2>
+		<h2>Demografski upitnik</h2>
 	</div><!-- /header -->  
 	
 	<div data-role="content">	
@@ -42,16 +42,16 @@
 	<!--<a href="#popup" data-rel="popup">Open Popup</a>-->
 	<div data-role="popupx" id="popup" class="ui-content">
 	  <!-- Here is the form -->
-	  <p>Dovolte, abychom Vás pozvali k <b>anonymnímu výzkumu</b> prováděném ve spolupráci <b>autorů Volební kalkulačky</b> a kateder politologie <a href="http://polit.fss.muni.cz/">Masarykovy univerzity v Brně</a> a <a href="http://fhs.uhk.cz/politologie/">Univerzity Hradec Králové</a>. Dotazník Vám zabere zhruba <b>2 minuty</b>.<p>
+	  <p>Molimo vas za vaše učešće u  <b> anonimnom istraživanju </b> koje provodimo u okviru web aplikacije <b> glasometar.ba</b>. Upitnik će trajati manje od  <b> 2 minuta </b>.<p>
 	  <form action="save_research.php" method="post" data-ajax="false">
 	   
-	    <p>Účast na výzkumu není povinná, můžete jej <button type="submit" data-mini="true" data-inline="true" name="upper-submit" value="upper-submit" >přeskočit rovnou na prezidentskou Volební kalkulačku</button></p>
+	    <p>Preskoči upitnik <button type="submit" data-mini="true" data-inline="true" name="upper-submit" value="upper-submit" >pokreni Glasometar</button></p>
 	   
 	    
 
 	    
 	    <!-- sex -->
-	    <fieldset data-role="controlgroup" data-type="horizontal" class="odd"> 
+	    <fieldset data-role="controlgroup" data-type="horizontal"> 
 		  <legend><b>Spol:</b></legend>
 	      {foreach $data.sex as $item}      
          	  <input type="radio" name="input-sex" id="input-sex-{$item.0}" value="{$item.0}"  {if (isset($item.2))}selected="selected"{/if} />
@@ -60,7 +60,7 @@
 	    </fieldset>
 	    
 	    <!-- nationality -->
-	    <fieldset data-role="controlgroup" data-type="horizontal" class="even" > 
+	    <fieldset data-role="controlgroup" data-type="horizontal"> 
 		  <legend><b>Nacinoalnost</b></legend>
 	      {foreach $data.nationality as $item}      
          	  <input type="radio" name="input-nationality" id="input-nationality-{$item.0}" value="{$item.0}"  {if (isset($item.2))}selected="selected"{/if} />
@@ -69,7 +69,7 @@
 	    </fieldset>
 	    
 	    <!-- education -->
-	    <fieldset data-role="controlgroup" data-type="horizontal"  class="odd"> 
+	    <fieldset data-role="controlgroup" data-type="horizontal"> 
 		  <legend><b>Obrazovanje</b></legend>
 	      {foreach $data.education as $item}      
          	  <input type="radio" name="input-education" id="input-education-{$item.0}" value="{$item.0}"  {if (isset($item.2))}selected="selected"{/if} />
@@ -78,7 +78,7 @@
 	    </fieldset>
 	    
 	    <!-- municipality -->
-	    <fieldset data-role="controlgroup" data-type="horizontal"  class="even"> 
+	    <fieldset data-role="controlgroup" data-type="horizontal"> 
 		  <legend><b>Opština</b></legend>
 		  <select name="select-choice-municipality" id="select-choice-municipality">
 	      {foreach $data.municipality as $item}  
@@ -87,7 +87,7 @@
 	      </select>
 	    </fieldset>
 	    
-	    <button type="submit" name="submit" value="submit" data-theme="e" data-icon="arrow-r" data-iconpos="right">Děkujeme za spolupráci na výzkumu. Pokračovat na Volební kalkulačku.</button>
+	    <button type="submit" name="submit" value="submit" data-theme="e" data-icon="arrow-r" data-iconpos="right">Hvala vam na suradnji u istraživanju. Nastavite prema Glasometru</button>
 	    
 	    
 	  
