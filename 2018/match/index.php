@@ -79,7 +79,7 @@ $smarty->display('match.tpl');
 
 //save results
 
-$str = session_id()."\t".'calc2014ep'."\t".date('Y-m-d H:i:s')."\t".$_SERVER['QUERY_STRING']."\t".$_SERVER['REMOTE_ADDR']."\n";
+$str = session_id()."\t".'calc2018ep'."\t".date('Y-m-d H:i:s')."\t".$_SERVER['QUERY_STRING']."\t".$_SERVER['REMOTE_ADDR']."\n";
 $file = fopen('../../result.txt', 'a');
 fwrite($file, $str);
 fclose($file);

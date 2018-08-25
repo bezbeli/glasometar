@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.32, created on 2018-08-23 17:14:27
+/* Smarty version 3.1.32, created on 2018-08-23 23:32:28
   from '/home/vagrant/Code/glasometar.ba/smarty/templates/eu2018/match-footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.32',
-  'unifunc' => 'content_5b7eeb73486993_84246553',
+  'unifunc' => 'content_5b7f440c9cf3a9_27689771',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '476e89647530438e3f9ea68f27bc32e70ae4c2b4' => 
     array (
       0 => '/home/vagrant/Code/glasometar.ba/smarty/templates/eu2018/match-footer.tpl',
-      1 => 1534826994,
+      1 => 1535193055,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5b7eeb73486993_84246553 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5b7f440c9cf3a9_27689771 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <footer>
         <div class="container">
             <div class="row">
@@ -28,10 +28,10 @@ function content_5b7eeb73486993_84246553 (Smarty_Internal_Template $_smarty_tpl)
                     
                     <a href="<?php echo $_smarty_tpl->tpl_vars['text']->value['author_link'];?>
 " title="<?php echo $_smarty_tpl->tpl_vars['text']->value['author'];?>
-" id="footer-glasometar-logo"><img src="../../2014/image/glasometar_logo.png" alt="logo glasometar.ba" /></a><br /><br />
+" id="footer-glasometar-logo"><img src="../../2018/image/glasometar_logo.png" alt="logo glasometar.ba" /></a><br /><br />
                     <a href="<?php echo $_smarty_tpl->tpl_vars['text']->value['author_link'];?>
 " title="<?php echo $_smarty_tpl->tpl_vars['text']->value['author'];?>
-" id="footer-zastone-logo"><img src="../../2014/image/zastone_logo.png" alt="logo zastone.ba" /></a><br /><br />
+" id="footer-zastone-logo"><img src="../../2018/image/zastone_logo.png" alt="logo zastone.ba" /></a><br /><br />
                     <a href="http://kohovolit.eu" title="KohoVolit.eu" id="footer-kohovolit-logo"><img src="../../image/logo.png" alt="logo kohovolit.eu" /></a>
 
 					

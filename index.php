@@ -21,49 +21,24 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Add custom CSS here -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700&subset=latin,latin-ext">
-    <link rel="stylesheet" href="css/vaa2014.css">
     <style>
         body {
             padding-top: 0;
+            color: #fff;
+            line-height: 1.68em;
         }
 
         @media (min-width: 666px) {
             .header {
-                background: url("http://glasometar.ba/2014/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
-            }
-        }
-
-        @media (min-width: 750px) {
-            h1 {
-                background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+                background: url("http://glasometar.ba/2018/image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
             }
         }
 
         h1 {
-            color: #FFFFFF;
-            display: inline;
-            line-height: 60px;
+            line-height: 1em;
             font-family: 'Roboto Slab', serif;
-            padding: 10px 20px;
-            vertical-align: baseline;
-            width: auto;
-        }
-
-        .lead {
-            font-size: 16px;
-            font-weight: 200;
-            line-height: 1.4;
-            margin-bottom: 50px;
-            margin-bottom: 20px;
-            font-size: 21px;
-            color: #fff;
-        }
-
-        .nav a {
-            color: #428BCA
         }
     </style>
 
@@ -93,52 +68,24 @@
     </div>
     <!-- /Side Menu -->
 
-    <!-- Full Page Image Header Area -->
     <div id="top" class="header">
 
         <div class="vert-text">
 
-            <h1>Glasometar 2014</h1>
+            <h1>Glasometar 2018</h1>
+
             <div class="col-md-6 col-md-offset-3 text-center" style="padding-top:2em;">
+
                 <p class="lead">
                     Glasometar.ba je aplikacija koja omogućava potencijalnim biračima u BiH da testiraju svoje stavove i mišljenja o ključnim
                     pitanjima u politici, te da ih uporede sa stavovima i mišljenjima 18 najrelevantijih partija/stranaka
                     u BiH.
                 </p>
+
                 <div style="padding-bottom:3em">
-                    '
-                    <a class="btn btn-lg btn-success" href="2014/research.php" data-rel="dialog">Pokreni aplikaciju</a>'; else echo '
-                    <a class="btn btn-lg btn-success" href="2014" data-ajax="false">Pokreni aplikaciju</a>';=======
-                    < ?php //research and hits $rand=rand(0,5); if ($rand==0 ) { echo
-                        '<a class="btn btn-lg btn-success" href="2014/research.php' . $_SERVER[ 'QUERY_STRING'] . '" data-rel="dialog">Pokreni aplikaciju</a>'; $str=s ession_id() .
-                        "\t" . "ba2014research" . "\t" . date( "Y-m-d H:i:s") . "\t" . $_SERVER[ 'QUERY_STRING'] . "\t" . $_SERVER[
-                        'REMOTE_ADDR'] . "\n"; } else { echo '<a class="btn btn-lg btn-success" href="2014?' . $_SERVER[ 'QUERY_STRING']
-                        . '" data-ajax="false">Pokreni aplikaciju</a>'; $str=s ession_id() . "\t" . "ba2014" . "\t" . date(
-                        "Y-m-d H:i:s") . "\t" . $_SERVER[ 'QUERY_STRING'] . "\t" . $_SERVER[ 'REMOTE_ADDR'] . "\n"; } $file=f open(
-                        'hits.txt', 'a'); fwrite($file,$str); fclose($file);>>>>>>> 34ba77b00c668a4d65f2cc0959b11518f46df3ea ?>
+                    <a class="btn btn-lg btn-success" href="/2018" data-ajax="false">Pokreni aplikaciju</a>
                 </div>
 
-                <p>
-
-                    <div class="">
-                        <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FGlasometar&amp;width=100&amp;layout=box_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=65&amp;appId=346936452142574"
-                            scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:65px;" allowTransparency="true"></iframe>
-                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://volebnakalkulacka.sk" data-text="Zkúste také Volebnú kalkulačku!"
-                            data-via="KohoVolitEU" data-hashtags="EP2014" data-count="vertical">Tweet</a>
-                        <script>
-                            ! function(d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0],
-                                    p = /^http:/.test(d.location) ? 'http' : 'https';
-                                if (!d.getElementById(id)) {
-                                    js = d.createElement(s);
-                                    js.id = id;
-                                    js.src = p + '://platform.twitter.com/widgets.js';
-                                    fjs.parentNode.insertBefore(js, fjs);
-                                }
-                            }(document, 'script', 'twitter-wjs');
-                        </script>
-
-                    </div>
             </div>
         </div>
     </div>

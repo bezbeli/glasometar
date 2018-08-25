@@ -10,13 +10,13 @@
     {/block}
 
     {block name=body}
-      <!-- header -->
-      {include "page-header.tpl"}
-      <!-- /header -->
+    
+    <!-- header -->
+    {include 'page-header.tpl'}
+    <!-- /header -->
+    
+    {include 'page-content.tpl'}
       
-      <!-- carousel -->
-      {include "page-carousel.tpl"}
-      <!-- /carousel -->
    {/block}
    
    
@@ -26,12 +26,3 @@
      <!-- /Footer -->
    {/block}
    
-   {block name=js}
-     <script>
-       var user = $.parseJSON('{$user}');
-     </script>
-     <script src="../js/page.js"></script>
-     <!-- js -->
-     {include "page-js.tpl"}
-     <!-- /js -->
-   {/block}
