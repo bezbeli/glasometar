@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col">
         <form action="./match/" method="get" id="calc">
-        <div class="slider">
+        <div class="slider pb-5">
           {$key=1} {foreach $questions as $question}
             {include "page-page.tpl"}
           {$key=$key+1} {/foreach}
@@ -22,10 +22,6 @@
           {/if}
 
           <!-- /customization -->
-
-          <!-- utm -->
-          {include "page-utm.tpl"}
-          <!-- /utm -->
 
         </div>
       </form>

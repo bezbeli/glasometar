@@ -1,9 +1,12 @@
 function showmatrix(matrix,order,category1) {
 
+  contWidth = $('#viz').width();
+  // console.log(contWidth);
+
     var margin = {top: 0, right: 0, bottom: 0, left: 0},
         padding = {top: 100, right: 0, bottom: 0, left: 100},
-        width = 960 - margin.left - margin.right - padding.left - padding.right,
-        height = 550 - margin.top - margin.bottom - padding.top - padding.bottom;
+        width = contWidth - margin.left - margin.right - padding.left - padding.right,
+        height = contWidth - margin.top - margin.bottom - padding.top - padding.bottom;
         square = {padding: 0.2}
 
     var x = d3.scale.linear()
@@ -11,11 +14,11 @@ function showmatrix(matrix,order,category1) {
 
     var y = d3.scale.linear()
         .range([0,Math.min(width,height)]);
-        
+
     var color = d3.scale.linear()
         .domain([0, 35, 55, 75, 100])
         .range(["#880000", "red", "yellow", "green", "green"]);
-        
+
         mpleft = margin.left+padding.left;
         mptop = margin.top+padding.top;
 
@@ -27,22 +30,22 @@ function showmatrix(matrix,order,category1) {
         .attr("height", height + margin.top + margin.bottom + padding.top + padding.bottom)
       .append("g")
         .attr("transform", "translate(" + mpleft + "," + mptop + ")");
-        
-        
+
+
       ncat = Object.keys(matrix).length;
       square['size'] = Math.floor(Math.min(width,height)/ncat);
       square['innersize'] = Math.floor(square['size']*(1-square['padding']));
-      
+
       //domains:
       x.domain([0,ncat]);
       y.domain([0,ncat]);
-      
+
       category1.push(''); //needed to have one more category
-      
+
       var scale = d3.scale.ordinal()
             .domain(category1)
 	        .rangePoints([0, Math.floor(Math.min(width,height))]);
-	        
+
       //axes
       var xAxis = d3.svg.axis()
             .scale(scale)
@@ -51,23 +54,23 @@ function showmatrix(matrix,order,category1) {
       var yAxis = d3.svg.axis()
             .scale(scale)
             .orient("right");
-            
+
     //axes content
       var xaxisContent = svg.append("g")
 	        .attr("class", "x axis")
 	        .attr("transform", "translate(0,-"+ padding.top/2 +")")
 	        .attr("font-size", function () {return Math.floor(square['innersize']*.4)+"px"})
 	        .call(xAxis);
-	        
+
       svg.selectAll("g.axis text")
-         .attr("transform", "rotate(-90)");	    
-         
+         .attr("transform", "rotate(-90)");
+
       var yaxisContent = svg.append("g")
             .attr("class", "y axis")
             .attr("transform", "translate(-" + padding.left + ","+square['size']/2+")")
             .attr("font-size", function () {return Math.floor(square['innersize']*.4)+"px"})
             .call(yAxis);
-	            
+
 
       //reorder 'matrix' for 'data'
       data = matrix2data(matrix,order);
@@ -80,7 +83,7 @@ function showmatrix(matrix,order,category1) {
             icko = i
             svg.selectAll(".rect")
 		        .filter(function (d, i) {
-			        return ((i % ncat) == (icko % ncat) || Math.floor(i/ ncat) == Math.floor(icko / ncat) ) 
+			        return ((i % ncat) == (icko % ncat) || Math.floor(i/ ncat) == Math.floor(icko / ncat) )
 		        })
 		        .attr("class", "rect hover")
             yaxisContent.selectAll("text")
@@ -93,33 +96,33 @@ function showmatrix(matrix,order,category1) {
 		        .filter(function(d, i) {
 			        return (i == Math.floor(icko / ncat))
 		        })
-		        .attr("class", "hoverBold")	
+		        .attr("class", "hoverBold")
           })
           .on("mouseout", function (d, i) {
 	        icko = i
 	        svg.selectAll(".rect")
 		        .filter(function (d, i) {
-			        return ((i % ncat) == (icko % ncat) || Math.floor(i/ ncat) == Math.floor(icko / ncat) ) 
+			        return ((i % ncat) == (icko % ncat) || Math.floor(i/ ncat) == Math.floor(icko / ncat) )
 		        })
 		        .attr("class", "rect")
 	        yaxisContent.selectAll("text")
 		        .filter(function(d, i) {
 			        return ((i % ncat) == (icko % ncat))
 		        })
-		        .attr("class", "")		
+		        .attr("class", "")
 
 	        xaxisContent.selectAll("text")
 		        .filter(function(d, i) {
 			        return (i == Math.floor(icko / ncat))
 		        })
-		        .attr("class", "")	
+		        .attr("class", "")
           })
           .on("click", function(d,i) {
             ids = [d['id2'],d['id1']];
             $('#modal').modal('show');
           });
-          
-          
+
+
       rect.append("rect")
           .attr("x",function(d) {return x(d.i1);})
           .attr("y",function(d) {return y(d.i2);})
@@ -144,9 +147,9 @@ function showmatrix(matrix,order,category1) {
 	        .attr("class","descr")
 	        .attr("font-size", function () {return Math.floor(square['innersize']*.5)+"px"})
 	        .on("mouseover", function (d,i) {
-	           
-	        });	  
-	        
+
+	        });
+
       //middle rects
       category = d3.range(category1.length-1);
       var grayrect = svg.selectAll(".grayrect")
@@ -159,7 +162,7 @@ function showmatrix(matrix,order,category1) {
           .attr("width",square['innersize'])
           .attr("height",square['innersize'])
           .attr("class",'middle-rect')
-          ;      
+          ;
     });
 
     function matrix2data(matrix,order) {

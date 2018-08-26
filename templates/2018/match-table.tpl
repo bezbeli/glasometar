@@ -3,7 +3,7 @@
         <ol class="list-group">
             {$i=0}
             {foreach $results as $result}
-            <li class="no-number mb-3">
+            <li class="no-number mb-2">
                 <a href="#" data-id="{$results[$i].id}" class="list-group-item open-dialog" data-toggle="modal" data-target="#modal" id="table-{$i}-{$results[$i].{$config->winner_id}}">
                     <div class="row justify-content-between">
                         <div class="col-xs-9">

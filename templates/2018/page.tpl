@@ -1,9 +1,6 @@
 {extends file='main.tpl'}
-    {block name=additionalHead}
-      <link href="../css/stylish-portfolio.min.css" rel="stylesheet">
-      <link href="../css/carousel.min.css" rel="stylesheet">
-      <link href="../css/style.css" rel="stylesheet">
-    {/block}
+{block name=additionalHead}
+{/block}
 
     {block name=lastHead}
       <title>{$text['title']}</title>
@@ -11,7 +8,7 @@
 
     {block name=body}
       <!-- header -->
-      {include "page-header.tpl"}
+      {include "header.tpl"}
       <!-- /header -->
 
       <!-- carousel -->
@@ -31,8 +28,21 @@
        var user = $.parseJSON('{$user}');
      </script>
 
-     <script src="../js/page.js"></script>
-     <!-- js -->
-     {include "page-js.tpl"}
-     <!-- /js -->
+    <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js"></script>
+
+    <script>
+        $(".slider").slick({
+            dots: true,
+            infinite: false,
+            adaptiveHeight: true,
+            arrows: true
+        });
+    </script>
+
+    <script src="../js/page.js"></script>
+
+    <!-- js -->
+    {include "page-js.tpl"}
+    <!-- /js -->
+
    {/block}

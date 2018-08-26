@@ -5,9 +5,13 @@
     var order = positions(data,qcoefs,voted); //array of ids
     var matrix = calculate(data);
     var category1 = data2category(data,order);
-    showmatrix(matrix,order,category1);
 
-  
+    $('a#tabs-comparison').on('shown.bs.tab', function (e) {
+      showmatrix(matrix,order,category1);
+    })
+
+
+
   function data2category(data,order) {
     out = [];
     for (key in order) {
@@ -16,13 +20,13 @@
     }
     return out;
   }
-  
+
   function addme(data) {
     out = data;
     out['0'] = me;
     return out;
   }
-  
+
   function positions(answers,qcoefs,voted) {
     //html = "";
     pos = [];
@@ -37,7 +41,7 @@
     }
     return out;
   }
-  
+
   function calc_position(voter,voted,weights,qcoefs) {
     s = 0;
     for (k in voted) {
@@ -50,7 +54,7 @@
     }
     return s;
   }
-  
+
   function calculate(answers) {
     matrix = {}
     //html = "";
@@ -76,7 +80,7 @@
     //$("#matrix").html(html);
     return matrix;
   }
-  
+
   function calc_match(voter1,voter2,voted,weights) {
     s = 0;
     c = 0;
@@ -94,7 +98,7 @@
     if (c == 0) return rescale(0);
     else return rescale (s/c);
   }
-  
+
   function rescale (num) {
     return (num + 1) * 50;
   }

@@ -16,7 +16,7 @@ $text = [
   //'og:title' => 'Volební kalkulačka',
   //'og:url' => 'http://volebnikalkulacka.cz',
   //'og:site_name' => 'Volební kalkulačka',
-  'author_link' => 'http://zastone.ba',
+  'author_link' => 'http://KohoVolit.eu',
   'licence' => 'Creative Commons BY 4.0',
   'year' => '2018',
 

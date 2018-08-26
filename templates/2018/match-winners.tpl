@@ -1,4 +1,4 @@
-<div class="winners row">
+<div class="winners row pt-5">
   {for $i=0 to 2}
    <div class="col-sm-4 text-center{if ($i>0)} hidden-xs{/if}">
      <a href="#" data-id="{$results[$i].id}" class="list-group-item open-dialog" data-toggle="modal" data-target="#modal" id="winner-{$i}-{$results[$i].{$config->winner_id}}">

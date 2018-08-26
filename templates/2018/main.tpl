@@ -16,20 +16,11 @@
     <meta property="og:site_name" content="{$text['calc']}" />
     <meta property="og:type" content="website" />
 
-    <link rel="stylesheet" href="/node_modules/slick-carousel/slick/slick.css">
-    <link rel="stylesheet" href="/node_modules/slick-carousel/slick/slick-theme.css">
-
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-
-    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700&subset=latin,latin-ext">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700&subset=latin,latin-ext">
+    <link rel="stylesheet" href="/2018/css/default.css">
 
     {block name=additionalHead}{/block}
-
-    {if ($partnercss)}
-    <link href="{$partnercss}" rel="stylesheet">
-    {/if}
 
     {block name=lastHead}{/block}
 </head>
@@ -58,16 +49,8 @@
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js"></script>
-
-    <script>
-        $(".slider").slick({
-            dots: true,
-            adaptiveHeight: true,
-            arrows: true
-        });
-    </script>
 
     {block name=js}{/block}
     <!-- google analytics -->

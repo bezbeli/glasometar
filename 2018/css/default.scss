@@ -1,0 +1,145 @@
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../resources/assets/styles/variables';
+@import '../../resources/assets/styles/bootstrap';
+@import '../../resources/assets/styles/slick';
+@import '../../resources/assets/styles/slick-theme';
+
+/* note: must be first, before the logos/photos */
+.sprite {
+  background: url('../image/partije.png') no-repeat top left;
+}
+
+.sprite-BOSS{ background-position: 0 0; width: 80px; height: 80px; }
+.sprite-DF{ background-position: 0 -130px; width: 80px; height: 80px; }
+.sprite-DNS{ background-position: 0 -260px; width: 80px; height: 80px; }
+.sprite-DNZ{ background-position: 0 -390px; width: 80px; height: 80px; }
+.sprite-HDZ{ background-position: 0 -520px; width: 80px; height: 80px; }
+.sprite-HDZ1990{ background-position: 0 -650px; width: 80px; height: 80px; }
+.sprite-HSP{ background-position: 0 -780px; width: 80px; height: 80px; }
+.sprite-NS{ background-position: 0 -910px; width: 80px; height: 80px; }
+.sprite-NSRzB{ background-position: 0 -1040px; width: 80px; height: 80px; }
+.sprite-PDP{ background-position: 0 -1170px; width: 80px; height: 80px; }
+.sprite-PS{ background-position: 0 -1300px; width: 80px; height: 80px; }
+.sprite-SBB{ background-position: 0 -1430px; width: 80px; height: 80px; }
+.sprite-SBiH{ background-position: 0 -1560px; width: 80px; height: 80px; }
+.sprite-SDA{ background-position: 0 -1690px; width: 80px; height: 80px; }
+.sprite-SDP{ background-position: 0 -1820px; width: 80px; height: 80px; }
+.sprite-SDS{ background-position: -130px 0; width: 80px; height: 80px; }
+.sprite-SNSD{ background-position: -130px -130px; width: 80px; height: 80px; }
+.sprite-SP{ background-position: -130px -260px; width: 80px; height: 80px; }
+
+
+#container li {
+    background: url(partije.png) no-repeat top left;
+}
+
+#comparison {
+  background: white;
+}
+
+.tooltip-top:hover {
+  cursor: pointer;
+}
+
+.comp-center {
+  text-align: center;
+}
+
+.no-number {
+  list-style:none;
+}
+
+.result-number {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.result-very-positive {
+  color: #008000;
+}
+
+.result-positive {
+  color: #40ff40;
+}
+
+.result-neutral {
+  color: #808080;
+}
+
+.result-negative {
+  color: #ff8080;
+}
+
+.result-very-negative {
+  color: #800000;
+}
+
+/* matrix */
+
+.rect:hover,
+.hover {
+  cursor: pointer;
+  fill-opacity: .6;
+}
+
+.domain {
+  display: none;
+}
+
+.tick {
+  font-family: sans-serif;
+}
+
+.descr {
+  cursor: pointer;
+  fill: #000;
+  font-family: sans-serif;
+}
+
+.hoverBold {
+  font-weight: bold;
+}
+
+.middle-rect {
+  fill: #aaa;
+}
+
+.o-question {
+  display: block;
+  min-height: 30vh;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+.navbar-brand img{
+  width: 60vw;
+}
+
+body {
+  font-size: 14px;
+}
+
+  .question-question{
+    font-size: 1rem;
+  }
+
+@include media-breakpoint-up(sm) {
+  .question-question{
+    font-size: 2rem;
+  }
+
+  .navbar-brand img{
+    width: 300px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+}
+
+footer img {
+  height: 24px;
+  width: auto;
+}
