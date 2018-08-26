@@ -6,8 +6,8 @@ session_start();
 require '../vendor/autoload.php';
 $smarty = new Smarty();
 
-$smarty->setTemplateDir('../smarty/templates/eu2014');
-$smarty->setCompileDir('../smarty/templates_c');
+$smarty->setTemplateDir('../templates/eu2014');
+$smarty->setCompileDir('../templates_c');
 
 //get the utm (campaign) links
 // http://www.mequoda.com/articles/subscription_websites/the-mysterious-utm-code-explained/

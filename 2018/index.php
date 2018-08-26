@@ -14,8 +14,8 @@ require 'common.php';
 // require('../../../usr/lib/php/Smarty-3.1.19/libs/Smarty.class.php');
 $smarty = new Smarty();
 
-$smarty->setTemplateDir('../smarty/templates/'.$text['election_code']);
-$smarty->setCompileDir('../smarty/templates_c');
+$smarty->setTemplateDir('../templates/'.$text['election_code']);
+$smarty->setCompileDir('../templates_c');
 
 //read questions
 $qfile = 'questions.json';

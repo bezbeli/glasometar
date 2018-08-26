@@ -14,8 +14,8 @@ require '../config.php';
 // put full path to Smarty.class.php
 $smarty = new Smarty();
 
-$smarty->setTemplateDir('../../smarty/templates/'.$text['election_code']);
-$smarty->setCompileDir('../../smarty/templates_c');
+$smarty->setTemplateDir('../../templates/'.$text['election_code']);
+$smarty->setCompileDir('../../templates_c');
 
 //answers of voters
 $answers = json_decode(file_get_contents('../answers.json'));
@@ -84,9 +84,8 @@ $file = fopen('../../result.txt', 'a');
 fwrite($file, $str);
 fclose($file);
 
-/**
- * create link for EU (SK).
- */
+//  * create link for EU (SK)
+
 function create_eu_link($user, $party_id)
 {
     $out = 'https://map.votematch.eu/?c=sk&p[]='.$party_id;

@@ -3,13 +3,14 @@
 * Texts (for translation)
 */
 $text = [
-  
-  'election_code' => 'eu2018',
+  'election_code' => '2018',
   'lang' => 'bs',
+
   //meta
-  'author' => 'KohoVolit.eu 2014',
+  'author' => 'KohoVolit.eu',
   'description' => 'Opšti/Opći izbori 2018. u BiH se približavaju! Glasometar će vam pomoći da saznate sa kojom partijom se najviše slažete!',
   'keywords' => 'Izbori 2018, Izbori BiH, Glasometar, glasometar kviz',
+
   //fb
   'og:image' => 'http://glasometar.ba/image/glasometar_og_logo.png',
   //'og:title' => 'Volební kalkulačka',
@@ -18,10 +19,8 @@ $text = [
   'author_link' => 'http://zastone.ba',
   'licence' => 'Creative Commons BY 4.0',
   'year' => '2018',
-  
-  'footer_text' => '<a href="http://glasometar.ba">Glasometar.ba</a> <br/> <a href="http://www.votematch.eu/">VoteMatchEurope</a>',
-  
 
+  'footer_text' => '<a href="http://glasometar.ba">Glasometar.ba</a> <br/> <a href="http://www.votematch.eu/">VoteMatchEurope</a>',
 
   'calc' => 'Glasometar 2018',
   'info' => 'Info',
@@ -38,20 +37,18 @@ $text = [
   'page_important_legend' => '<strong>Označite pitanja koja su najvažnija za vas</strong>. Ovaj korak nije obavezan i možete ga preskočiti.',
   'page_important_skip' => 'Preskoči',
   'page_important_results' => 'Rezultati',
-  
+
   'ie8' => 'Žao nam je, kalkulator možda neće raditi u Internet Exploreru 8',
   'opera11' =>'Žao nam je, izborni kalkulator možda neće raditi u Operi 11',
 
    //MATCH
    'match_save' => 'Sačuvajte ove rezultate',
- 
+
    'result_winner_share' => 'Podijelite rezultate na Facebook',
    'result_share' => 'Podijelite rezultate',
-   
-   //'comparison_parties_eu' => 'Poređenje sa strankama u EU',
-   //'comparison_eu_explained' => '15 issues that are in the Slovak election calculator, are also in electoral calculators in other EU countries. Which side are you there next?',
+
    'missing_table_description' => 'Za ove stranke <strong> pitanja nisu odgovorena </strong>: ',
-   
+
    //fb
   'result_fb_appid' => "346936452142574",
   'result_fb_picture_link' => 'http://glasometar.ba/2018/image/logo/',
@@ -65,31 +62,20 @@ $text = [
   'result_fb_redirect_link' => 'http://glasometar.ba',
   'result_fb_link' => 'http://glasometar.ba/',
   'result_fb_action' => "[{'name':'Za koga ćete glasati?','link':'http://glasometar.ba/'}]",
-   
+
    //tabs
    'result_results' => 'Rezultati',
    'result_comparison' => 'Poređenje',
-   //'result_eu' => 'Rezultati u EU',
-   
-   //support (DMS)
-   //'result_support' => '<strong>Podpořte tvorbu nezávislých
-  //Volebních kalkulaček.</strong><br/>
-  //Pošlete SMS na&nbsp;číslo&nbsp;<strong><span class="colorstrong">87777</span></strong>
-  //s&nbsp;textem <strong><span class="colorstrong">DMS&nbsp;KOHOVOLIT</span></strong>
-  //(cena 30Kč, z toho 28Kč pro
-  // sdružení KohoVolit.eu) nebo
-   //<strong><span class="colorstrong">DMS&nbsp;ROK&nbsp;KOHOVOLIT</span></strong>
-   //(automaticky každý měsíc po 1 rok)',
-   
+
    //comparison
    'result_close' => 'Zatvori',
    'result_yes' => 'Da',
    'result_no' => 'Ne',
    'result_question' => 'Pitanje',
-   
+
    //save
    'result_save_description' => 'Rezultat vašeg glasanja, uvijek se možete vratiti na ovu stranicu ako kopirate i sačuvate ovu adresu:',
-   
+
    //google analytics tracking id
    'google_tracking_id' => 'UA-17907866-5',
 
@@ -106,8 +92,7 @@ $text = [
   //important questions
   'page_header_mobile_important' => 'Važna pitanja',
   'page_important_legend' => '<strong> Istaknite pitanja koja su najvažnija za vas</strong>. Podrobnije odredite rezultat. Ovaj korak nije obavezan i možete ga preskočiti.',
-  
-  
+
   //RESULTS
 
   'result_twitter_data_lang' => 'bs',
@@ -119,6 +104,6 @@ $text = [
   //'result_twitter_hashtags' => 'volby,volby2018,eurovolby',
   //'result_twitter_share' => 'Tweetni',
 
-  
-  
+
+
 ];

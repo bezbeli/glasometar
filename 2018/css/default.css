@@ -1,32 +1,26 @@
-@media (min-width: 666px) {
-  .header {
-    background: url("../image/bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0); 
-  }
-}
-
 /* note: must be first, before the logos/photos */
 .sprite {
     background: url('../image/partije.png') no-repeat top left;
 }
 
-.sprite-BOSS{ background-position: 0 0; width: 80px; height: 80px; } 
-.sprite-DF{ background-position: 0 -130px; width: 80px; height: 80px; } 
-.sprite-DNS{ background-position: 0 -260px; width: 80px; height: 80px; } 
-.sprite-DNZ{ background-position: 0 -390px; width: 80px; height: 80px; } 
-.sprite-HDZ{ background-position: 0 -520px; width: 80px; height: 80px; } 
-.sprite-HDZ1990{ background-position: 0 -650px; width: 80px; height: 80px; } 
-.sprite-HSP{ background-position: 0 -780px; width: 80px; height: 80px; } 
-.sprite-NS{ background-position: 0 -910px; width: 80px; height: 80px; } 
-.sprite-NSRzB{ background-position: 0 -1040px; width: 80px; height: 80px; } 
-.sprite-PDP{ background-position: 0 -1170px; width: 80px; height: 80px; } 
-.sprite-PS{ background-position: 0 -1300px; width: 80px; height: 80px; } 
-.sprite-SBB{ background-position: 0 -1430px; width: 80px; height: 80px; } 
-.sprite-SBiH{ background-position: 0 -1560px; width: 80px; height: 80px; } 
-.sprite-SDA{ background-position: 0 -1690px; width: 80px; height: 80px; } 
-.sprite-SDP{ background-position: 0 -1820px; width: 80px; height: 80px; } 
-.sprite-SDS{ background-position: -130px 0; width: 80px; height: 80px; } 
-.sprite-SNSD{ background-position: -130px -130px; width: 80px; height: 80px; } 
-.sprite-SP{ background-position: -130px -260px; width: 80px; height: 80px; } 
+.sprite-BOSS{ background-position: 0 0; width: 80px; height: 80px; }
+.sprite-DF{ background-position: 0 -130px; width: 80px; height: 80px; }
+.sprite-DNS{ background-position: 0 -260px; width: 80px; height: 80px; }
+.sprite-DNZ{ background-position: 0 -390px; width: 80px; height: 80px; }
+.sprite-HDZ{ background-position: 0 -520px; width: 80px; height: 80px; }
+.sprite-HDZ1990{ background-position: 0 -650px; width: 80px; height: 80px; }
+.sprite-HSP{ background-position: 0 -780px; width: 80px; height: 80px; }
+.sprite-NS{ background-position: 0 -910px; width: 80px; height: 80px; }
+.sprite-NSRzB{ background-position: 0 -1040px; width: 80px; height: 80px; }
+.sprite-PDP{ background-position: 0 -1170px; width: 80px; height: 80px; }
+.sprite-PS{ background-position: 0 -1300px; width: 80px; height: 80px; }
+.sprite-SBB{ background-position: 0 -1430px; width: 80px; height: 80px; }
+.sprite-SBiH{ background-position: 0 -1560px; width: 80px; height: 80px; }
+.sprite-SDA{ background-position: 0 -1690px; width: 80px; height: 80px; }
+.sprite-SDP{ background-position: 0 -1820px; width: 80px; height: 80px; }
+.sprite-SDS{ background-position: -130px 0; width: 80px; height: 80px; }
+.sprite-SNSD{ background-position: -130px -130px; width: 80px; height: 80px; }
+.sprite-SP{ background-position: -130px -260px; width: 80px; height: 80px; }
 
 
 #container li {
