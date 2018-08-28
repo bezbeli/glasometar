@@ -28,7 +28,7 @@ $('document').ready(function() {
         var currentSlide = $('.slider').slick('slickCurrentSlide');
         var totalSlides = 32;
         var percent = 100/totalSlides*currentSlide;
-        console.log(percent);
+        // console.log(percent);
         window.location.hash = (currentSlide + 1);
         var slideTo = $(e.relatedTarget).index();
         $('.progress-bar').css('width',percent+'%');

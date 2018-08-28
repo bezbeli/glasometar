@@ -58,6 +58,8 @@ if (isset($_GET['navbar'])) {
     $navbar = false;
 }
 
+$show_download_link = true;
+
 $smarty->assign('missing', $missing);
 $smarty->assign('text', $text);
 $smarty->assign('partnercss', $partnercss);
@@ -71,6 +73,7 @@ $smarty->assign('user', $user_json);
 $smarty->assign('answers_json', $answers_json);
 $smarty->assign('qcoefs_json', $qcoefs_json);
 $smarty->assign('session_id', session_id());
+$smarty->assign('show_download_link', $show_download_link);
 $smarty->display('match.tpl');
 
 //save results

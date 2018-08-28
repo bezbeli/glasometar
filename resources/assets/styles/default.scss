@@ -1,8 +1,8 @@
-@import '../../node_modules/bootstrap/scss/functions';
-@import '../../resources/assets/styles/variables';
-@import '../../resources/assets/styles/bootstrap';
-@import '../../resources/assets/styles/slick';
-@import '../../resources/assets/styles/slick-theme';
+@import '../../../node_modules/bootstrap/scss/functions';
+@import 'variables';
+@import 'bootstrap';
+@import 'slick';
+@import 'slick-theme';
 
 /* note: must be first, before the logos/photos */
 .sprite {
