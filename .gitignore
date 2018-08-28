@@ -4,3 +4,4 @@ vendor
 .DS_Store
 */.DS_Store
 templates_c
+result.txt
