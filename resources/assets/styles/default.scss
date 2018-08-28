@@ -131,8 +131,19 @@ input[type=radio] {
   display: none;
 }
 
-.navbar-brand img{
-  width: 60vw;
+.navbar {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.navbar-brand {
+  padding-bottom: 0;
+  padding-top: 0;
+
+  img{
+    width: 60vw;
+    padding: 0;
+  }
 }
 
 body {
