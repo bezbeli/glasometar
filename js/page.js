@@ -26,11 +26,13 @@ $('document').ready(function() {
 
     $('.slider').on('afterChange', function(e) {
         var currentSlide = $('.slider').slick('slickCurrentSlide');
+        var totalSlides = 32;
+        var percent = 100/totalSlides*currentSlide;
+        console.log(percent);
         window.location.hash = (currentSlide + 1);
         var slideTo = $(e.relatedTarget).index();
-
-            hideAndZebra();
-
+        $('.progress-bar').css('width',percent+'%');
+        hideAndZebra();
     });
 });
 
@@ -61,9 +63,9 @@ function hideAndZebra() {
         id = index.substr(1); //we expect something like "q13"
         $("#weightsel-row-" + id).show();
         //zebra
-        if (parseInt(i) % 2) cl = 'primary';
-        else cl = 'info';
-        $("#weightsel-row-" + id + ">td>label").addClass('btn-' + cl);
+        if (parseInt(i) % 2) cl = 'list-group-item'; // change to -dark make zebra
+        else cl = 'list-group-item'; // change to -light make zebra
+        $("#weightsel-row-" + id ).addClass(cl);
         i++;
         showni++;
     });
@@ -104,6 +106,7 @@ $('document').ready(function() {
 });
 
 // submit calc also by clicking on the last arrow
-document.getElementById("carousel-control-last").onclick = function() {
-    document.getElementById("calc").submit();
-}
+    // document.getElementById("carousel-control-last").onclick = function() {
+    // document.getElementById("calc").submit();
+// }
+

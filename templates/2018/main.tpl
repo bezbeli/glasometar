@@ -15,13 +15,11 @@
     <meta property="og:url" content="{$text['url']}" />
     <meta property="og:site_name" content="{$text['calc']}" />
     <meta property="og:type" content="website" />
+    {block name=additionalHead}{/block}
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700&subset=latin,latin-ext">
     <link rel="stylesheet" href="/2018/css/default.css">
-
-    {block name=additionalHead}{/block}
-
     {block name=lastHead}{/block}
 </head>
 
@@ -37,7 +35,7 @@
     </div>
     <![endif]-->
 
-    <div id="top" class="header">
+    <div id="top" class="wrapper">
         {block name=body}{/block}
     </div>
     <!-- /#top -->

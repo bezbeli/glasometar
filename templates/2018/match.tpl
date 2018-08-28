@@ -1,5 +1,9 @@
 {extends file='main.tpl'}
 
+{block name=additionalHead}
+<meta property="og:site_description" content="bla bla bla" />
+{/block}
+
 {block name=lastHead}
 <title>{$text['title']}</title>
 {/block}
@@ -11,22 +15,16 @@
 <!-- /header -->
 
 <!-- results -->
-<div class="container results">
+<div class="container results px-3">
     <!-- winners -->
     {include "match-winners.tpl"}
     <!-- /winners -->
-    <!-- sharer -->
-    {include "match-sharer.tpl"}
-    <!-- /sharer -->
-    <!-- fb -->
-    {assign "fb_pos" "top"}
-    {include "match-fb.tpl"}
-    <!-- /fb -->
     <!-- tabs -->
     {include "match-tabs.tpl"}
     <!-- /tabs -->
-    {assign "fb_pos" "bottom"}
-    {include "match-fb.tpl"}
+    <!-- sharer -->
+    {include "match-sharer.tpl"}
+    <!-- /sharer -->
 </div>
 <!-- /results -->
 {/block}

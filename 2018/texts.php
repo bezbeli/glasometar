@@ -51,16 +51,17 @@ $text = [
 
    //fb
   'result_fb_appid' => "346936452142574",
-  'result_fb_picture_link' => 'http://glasometar.ba/2018/image/logo/',
-  'result_fb_name' => '[Glasometar.ba] Moji stavovi se najviše podudaraju sa ovim partijama:',
-  'result_fb_description_1' => '[Glasometar.ba] Moji stavovi se najviše podudaraju sa ovim partijama: ',
-  'result_fb_description_match' => 'slaganje',
+  'result_fb_picture_link' => 'http://glasometar.ba/image/glasometar_logo.png',
+  'result_fb_name' => 'Glasometar.ba',
+  'result_fb_description_1' => 'Moji stavovi se najviše podudaraju sa ovim partijama: ',
+  'result_fb_description_match' => 'Slaganje',
   'result_fb_description_and' => 'i',
   'result_fb_description_only' => 'samo',
-  'result_fb_description_2' => 'Najmanje ',
+  'result_fb_description_2' => 'Najmanje: ',
   'result_fb_description_3' => 'Sa kojom partijom se najvise slažete - Glasometar.ba',
   'result_fb_redirect_link' => 'http://glasometar.ba',
   'result_fb_link' => 'http://glasometar.ba/',
+  'result_fb_hashtag' => '#Glasometar2018',
   'result_fb_action' => "[{'name':'Za koga ćete glasati?','link':'http://glasometar.ba/'}]",
 
    //tabs

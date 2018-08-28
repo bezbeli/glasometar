@@ -6,8 +6,8 @@
             <li class="no-number mb-2">
                 <a href="#" data-id="{$results[$i].id}" class="list-group-item open-dialog" data-toggle="modal" data-target="#modal" id="table-{$i}-{$results[$i].{$config->winner_id}}">
                     <div class="row justify-content-between">
-                        <div class="col-xs-9">
-                            <div class="media p-2">
+                        <div class="w-75">
+                            <div class="media">
                                 <img src="../../image/1x1.png" class="sprite sprite-{$results[$i].{$config->table_sprite}} img-rounded media-object pull-left" alt="{$results[$i].{$config->table_alt}}" title="{$results[$i].{$config->table_title}}" />
                                 <div class="media-body inside-media px-3">
                                     <h4 class="list-group-item-heading ">{$results[$i].{$config->table_main}}</h4>
@@ -15,7 +15,7 @@
                                 </div>
                                 </div> <!-- /.media -->
                             </div>
-                            <div class="col-xs-3 text-right p-3">
+                            <div class="w-25 text-right">
                                 <span class="result-number
                                     {if $result.result >= .8} result-very-positive
                                     {elseif $result.result >= .6} result-positive

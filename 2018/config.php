@@ -16,6 +16,7 @@ $config->fb_picture = 'short_name';
 $config->fb_picture_format = 'jpg';
 $config->fb_caption = 'name';
 $config->fb_winner = 'name';
+$config->fb_hashtag = 'name';
 //twitter
 $config->twitter_winner = 'short_name';
 //table
@@ -27,4 +28,4 @@ $config->table_additional = 'name';
 //me (depends on table)
 $config->me_id = '0';  //should be!
 $config->me_name = 'JA';
-$config->me_short_name = ' ★★ JA ★★ ';
+$config->me_short_name = ' ★ JA ★ ';

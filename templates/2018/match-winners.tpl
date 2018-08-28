@@ -1,11 +1,15 @@
-<div class="winners row pt-5">
-  {for $i=0 to 2}
-   <div class="col-sm-4 text-center{if ($i>0)} hidden-xs{/if}">
-     <a href="#" data-id="{$results[$i].id}" class="list-group-item open-dialog" data-toggle="modal" data-target="#modal" id="winner-{$i}-{$results[$i].{$config->winner_id}}">
-        <img src="../../image/1x1.png" class="sprite sprite-{$results[$i].{$config->winner_sprite}}" alt="{$results[$i].{$config->winner_alt}}" title="{$results[$i].{$config->winner_title}}" />
-       <h3>{$results[$i].{$config->winner}}</h3>
-       <h2>{$results[$i].result_percent} %</h2>
-     </a>
-   </div>
-  {/for}
+<div class="d-flex justify-content-between align-items-stretch mb-3">
+    {for $i=0 to 2}
+    <a href="#" data-id="{$results[$i].id}" class="col-4 text-center open-dialog" data-toggle="modal" data-target="#modal" id="winner-{$i}-{$results[$i].{$config->winner_id}}">
+        <div class="card mx-1">
+            <div class="card-body">
+                <img src="../../image/1x1.png" class="sprite sprite-{$results[$i].{$config->winner_sprite}}" alt="{$results[$i].{$config->winner_alt}}" title="{$results[$i].{$config->winner_title}}" />
+                <h2>{$results[$i].result_percent}%</h2>
+            </div>
+            <div class="card-footer small">
+                {$results[$i].{$config->winner}}
+            </div>
+        </div>
+    </a>
+    {/for}
 </div>

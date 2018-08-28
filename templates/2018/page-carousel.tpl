@@ -1,4 +1,8 @@
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
 <div class="container">
+<div class="mb-3"></div>
   <div class="row">
     <div class="col">
         <form action="./match/" method="get" id="calc">

@@ -1,9 +1,1 @@
-http://www.facebook.com/dialog/feed?
-    app_id={$text.result_fb_appid}&
-    link={$text.result_fb_redirect_link|escape:'url'}&
-    picture={$text.result_fb_picture_link|escape:'url'}{$results[0].{$config->fb_picture}}.{$config->fb_picture_format}&
-    name={$text.result_fb_name|escape:'url'}&
-    caption=%3C-%20{$results[0].{$config->fb_caption}|escape:'url'}&
-    actions={$text.result_fb_action|escape:'url'}&
-    description={$text.result_fb_description_1|escape:'url'}{$results[0].{$config->fb_winner}|escape:'url'}%20({$text.result_fb_description_match|escape:'url'}%3A{$results[0].result_percent}%25),%20{$results[1].{$config->fb_winner}|escape:'url'}%20({$text.result_fb_description_match|escape:'url'}%3A{$results[1].result_percent}%25)%20{$text.result_fb_description_and}%20{$results[2].{$config->fb_winner}|escape:'url'}%20({$text.result_fb_description_match|escape:'url'}%3A{$results[2].result_percent}%25).%20{$text.result_fb_description_2|escape:'url'}{$results[$results|@count-1].{$config->fb_winner}|escape:'url'}%20({$text.result_fb_description_match|escape:'url'}%20{$text.result_fb_description_only}%20{$results[$results|@count-1].result_percent}%25).{$text.result_fb_description_3|escape:'url'}&
-    redirect_uri={$text.result_fb_redirect_link|escape:'url'}
+http://www.facebook.com/dialog/feed?app_id={$text.result_fb_appid}&link={$text.result_fb_redirect_link}&name={$text.result_fb_name}&amp;quote={$text.result_fb_description_1} {$results[0].{$config->fb_winner}} ({$text.result_fb_description_match} {$results[0].result_percent}%), {$results[1].{$config->fb_winner}} ({$text.result_fb_description_match} {$results[1].result_percent}%) {$text.result_fb_description_and} {$results[2].{$config->fb_winner}}% ({$text.result_fb_description_match} {$results[2].result_percent}%). {$text.result_fb_description_2}{$results[$results|@count-1].{$config->fb_winner}} ({$text.result_fb_description_match} {$text.result_fb_description_only} {$results[$results|@count-1].result_percent}%).&name={$text.result_fb_description_3}&redirect_uri={$text.result_fb_redirect_link}

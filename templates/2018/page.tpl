@@ -32,7 +32,8 @@
 
     <script>
         $(".slider").slick({
-            dots: true,
+            dots: false,
+            speed: 200,
             infinite: false,
             adaptiveHeight: true,
             arrows: true
