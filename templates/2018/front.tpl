@@ -17,8 +17,6 @@
     </div>
 </div>
 
-{* <div class="line d-flex"></div> *}
-
 {/block}
 
 {block name=footer}

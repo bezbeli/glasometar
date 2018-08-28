@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-8 pb-5">
 
             <h2>O projektu</h2>
             <p>Glasomater je internet aplikacija koja omogućava građanima i građankama da uporede svoje stavove sa stavovima 18 najrelevantnijih političkih partija u BiH i na taj način im olakšava odluku na predstojećim izborima.</p>

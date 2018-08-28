@@ -11,5 +11,5 @@
 <div class="tab-content pt-2">
   {include "match-table.tpl"}
   {include "match-matrix.tpl"}
-  {include "match-eu.tpl"}
+  {* {include "match-eu.tpl"} *}
 </div> <!-- /.tab-content -->

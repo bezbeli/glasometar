@@ -1,12 +1,4 @@
 
-<script>
-  //highlight more table
-  $('document').ready(function() {
-    $('.list-group-item').hover(function(){
-      $(this).toggleClass('active');
-    });
-  });
-</script>
 
 
 <!-- clicked -->

@@ -28,7 +28,7 @@
        var user = $.parseJSON('{$user}');
      </script>
 
-    <script type="text/javascript" src="/node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script type="text/javascript" src="../js/slick.min.js"></script>
 
     <script>
         $(".slider").slick({

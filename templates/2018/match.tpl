@@ -1,9 +1,5 @@
 {extends file='main.tpl'}
 
-{block name=additionalHead}
-<meta property="og:site_description" content="bla bla bla" />
-{/block}
-
 {block name=lastHead}
 <title>{$text['title']}</title>
 {/block}
@@ -11,7 +7,7 @@
 {block name=body}
 
 <!-- header -->
-{include "match-header.tpl"}
+{include "header.tpl"}
 <!-- /header -->
 
 <!-- results -->

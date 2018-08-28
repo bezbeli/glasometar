@@ -1,7 +1,8 @@
 <?php
 /**
-* Texts (for translation)
-*/
+Texts (for translation)
+**/
+
 $text = [
   'election_code' => '2018',
   'lang' => 'bs',
@@ -24,6 +25,7 @@ $text = [
 
   'calc' => 'Glasometar 2018',
   'info' => 'Info',
+  'contact' => 'Kontakt',
   'url' => 'http://glasometar.ba',
   'title' => 'Glasometar 2018' ,
 
@@ -92,7 +94,7 @@ $text = [
   'page_progressbar_from' => 'z',
   //important questions
   'page_header_mobile_important' => 'Važna pitanja',
-  'page_important_legend' => '<strong> Istaknite pitanja koja su najvažnija za vas</strong>. Podrobnije odredite rezultat. Ovaj korak nije obavezan i možete ga preskočiti.',
+  'page_important_legend' => '<strong>Istaknite pitanja koja su najvažnija za vas</strong>. Podrobnije odredite rezultat. Ovaj korak nije obavezan i možete ga preskočiti.',
 
   //RESULTS
 
@@ -104,7 +106,4 @@ $text = [
   //'result_twitter_account' => 'KohoVolitEU',
   //'result_twitter_hashtags' => 'volby,volby2018,eurovolby',
   //'result_twitter_share' => 'Tweetni',
-
-
-
 ];
