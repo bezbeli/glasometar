@@ -1,5 +1,5 @@
 <nav class="navbar navbar-dark bg-dark d-flex">
-    <a class="navbar-brand" href="/" id="header-home"><img src="/2018/image/glasometar_logo.svg" alt="{$text['calc']}" /></a>
+    <a class="navbar-brand" href="/" id="header-home"><img src="/2018/images/glasometar_logo.svg" alt="{$text['calc']}" /></a>
 
     <div class="ml-auto d-flex">
         {if isset($show_download_link)}

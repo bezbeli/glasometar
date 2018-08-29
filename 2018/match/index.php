@@ -35,36 +35,10 @@ $qcoefs_json = file_get_contents('../qcoefs.json');
 //this page
 $url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 
-//partners
-if (isset($_GET['partner'])) {
-    $partner = sanitize($_GET['partner']);
-} else {
-    $partner = 'default';
-}
-if (file_exists('../css/'.$partner.'.css')) {
-    $partnercss = '../css/'.$partner.'.css';
-}
-
-//custom background and header color:
-if (isset($_GET['background'])) {
-    $background = 'http://'.str_replace('_', '/', sanitize($_GET['background']));
-} else {
-    $background = false;
-}
-
-if (isset($_GET['navbar'])) {
-    $navbar = '#'.sanitize($_GET['navbar']);
-} else {
-    $navbar = false;
-}
-
 $show_download_link = true;
 
 $smarty->assign('missing', $missing);
 $smarty->assign('text', $text);
-$smarty->assign('partnercss', $partnercss);
-$smarty->assign('background', $background);
-$smarty->assign('navbar', $navbar);
 $smarty->assign('query_string', $_SERVER['QUERY_STRING']);
 $smarty->assign('results', $results);
 $smarty->assign('url', $url);

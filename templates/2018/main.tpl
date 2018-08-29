@@ -19,7 +19,8 @@
 
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Roboto+Slab:400,700&subset=latin,latin-ext">
-    <link rel="stylesheet" href="/2018/css/default.css">
+    {* <link rel="stylesheet" href="/2018/css/default.css"> *}
+    <link rel="stylesheet" href="/2018/css/app.css">
     {block name=lastHead}{/block}
 </head>
 
@@ -43,12 +44,7 @@
 
     {block name=footer}{/block}
 
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="/2018/js/app.js"></script>
 
     {block name=js}{/block}
     <!-- google analytics -->

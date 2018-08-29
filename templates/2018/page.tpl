@@ -20,8 +20,6 @@
        var user = $.parseJSON('{$user}');
      </script>
 
-    <script type="text/javascript" src="../js/slick.min.js"></script>
-
     <script>
         $(".slider").slick({
             dots: false,
@@ -33,7 +31,5 @@
     </script>
 
     <script src="../js/page.js"></script>
-
-    {include "page-js.tpl"}
 
    {/block}
