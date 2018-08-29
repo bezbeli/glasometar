@@ -7,20 +7,12 @@
     {/block}
 
     {block name=body}
-      <!-- header -->
       {include "header.tpl"}
-      <!-- /header -->
-
-      <!-- carousel -->
       {include "page-carousel.tpl"}
-      <!-- /carousel -->
    {/block}
 
-
    {block name=footer}
-     <!-- Footer -->
      {include "footer.tpl"}
-     <!-- /Footer -->
    {/block}
 
    {block name=js}
@@ -42,8 +34,6 @@
 
     <script src="../js/page.js"></script>
 
-    <!-- js -->
     {include "page-js.tpl"}
-    <!-- /js -->
 
    {/block}
