@@ -30,6 +30,6 @@
         });
     </script>
 
-    <script src="../js/page.js"></script>
+    <script src="../2018/js/carousel.js"></script>
 
    {/block}

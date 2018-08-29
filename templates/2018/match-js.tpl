@@ -44,9 +44,11 @@ jQuery(window).bind('beforeunload', function(){
   var answers = {$answers_json};
   var qcoefs = {$qcoefs_json};
 
-  var texts = { 'yes':"{$text['result_yes']}", 'no':"{$text['result_no']}" , 'question':"{$text['result_question']}"};
+  var texts = {
+    'yes':"{$text['result_yes']}",
+    'no':"{$text['result_no']}",
+    'question':"{$text['result_question']}"
+  };
 </script>
 
-<script src="../../js/showcomparison.js"></script>
-<script src="../../js/showmatrix.js"></script>
-<script src="../../js/calcmatrix.js"></script>
+<script src="../../2018/js/scripts.js"></script>
