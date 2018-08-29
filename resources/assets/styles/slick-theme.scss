@@ -9,7 +9,7 @@
 
 $slick-font-path: "/resources/assets/styles/fonts/" !default;
 $slick-font-family: "slick" !default;
-$slick-loader-path: "./" !default;
+$slick-loader-path: "" !default;
 $slick-arrow-color: $gray-500 !default;
 $slick-dot-color: black !default;
 $slick-dot-color-active: $slick-dot-color !default;
@@ -43,7 +43,7 @@ $slick-opacity-not-active: 0.25 !default;
 
 .slick-list {
     .slick-loading & {
-        background: #fff slick-image-url("../images/ajax-loader.gif") center center no-repeat;
+        background: #fff slick-image-url("/resources/assets/images/ajax-loader.gif") center center no-repeat;
     }
 }
 
