@@ -18,6 +18,5 @@ $smarty->setCompileDir('templates_c');
 $partnercss = 'css/default.css';
 
 $smarty->assign('text', $text);
-$smarty->assign('partnercss', $partnercss);
 $smarty->assign('session_id', session_id());
 $smarty->display('front.tpl');

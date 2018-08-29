@@ -27,6 +27,7 @@ $('document').ready(function() {
     $('.slider').on('afterChange', function(e) {
         var currentSlide = $('.slider').slick('slickCurrentSlide');
         var totalSlides = 32;
+        console.log(currentSlide);
         var percent = 100/totalSlides*currentSlide;
         // console.log(percent);
         window.location.hash = (currentSlide + 1);
