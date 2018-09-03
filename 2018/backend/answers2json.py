@@ -18,7 +18,7 @@ def vote2vote (vote):
 # read voters
 i = 0
 voters = {}
-with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/backend/source/voters.tsv','r') as f:
+with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/backend/source/voters.tsv','r') as f:
   csvreader = csv.reader(f,delimiter="\t")
   for row in csvreader:
     if i == 0:
@@ -106,15 +106,15 @@ for item in data:
     votesdb.append({"vote":item['vote'][key],"voter":int(item['id']),"question":int(key)})
   
 #save files 
-with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/answers.json', 'w') as outfile:
+with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/answers.json', 'w') as outfile:
   json.dump(dataout, outfile)
 outfile.close()
-with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/noreply.json', 'w') as outfile:
+with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/noreply.json', 'w') as outfile:
   json.dump(nodata, outfile)
 outfile.close()
-with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/details.json', 'w') as outfile:
+with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/details.json', 'w') as outfile:
   json.dump(details, outfile)
 outfile.close()
-with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/matrix.json', 'w') as outfile:
+with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/matrix.json', 'w') as outfile:
   json.dump(votesdb, outfile)
 outfile.close()
