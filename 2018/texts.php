@@ -13,7 +13,7 @@ $text = [
   'keywords'    => 'Izbori 2018, Izbori BiH, Glasometar, glasometar kviz',
 
   //fb
-  'og:image' => 'https://www.glasometar.ba/images/glasometar_logo.png',
+  'og:image' => 'https://www.glasometar.ba/2018/images/glasometar_logo.png',
   //'og:title' => 'Volební kalkulačka',
   //'og:url' => 'http://volebnikalkulacka.cz',
   //'og:site_name' => 'Volební kalkulačka',
