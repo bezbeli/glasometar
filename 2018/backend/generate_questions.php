@@ -8,7 +8,7 @@
 
 $file = file("./data/questions.tsv");
 
-$directory = '/2018/json/';
+$directory = '';
 
 //path to generate (relative)
 $path = '../';
