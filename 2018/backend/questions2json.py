@@ -26,6 +26,6 @@ questions = sorted(questions, key=lambda x:x['order'])
 print questions
 
 #save file
-with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/json/questions.json', 'w') as outfile:
+with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/questions.json', 'w') as outfile:
   json.dump(questions, outfile)
 outfile.close()

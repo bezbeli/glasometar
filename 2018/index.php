@@ -18,7 +18,7 @@ $smarty->setTemplateDir('../templates/'.$text['election_code']);
 $smarty->setCompileDir('../templates_c');
 
 //read questions
-$qfile = './json/questions.json';
+$qfile = './questions.json';
 $questions = json_decode(file_get_contents($qfile));
 
 //get prefilled user's values, if exist
