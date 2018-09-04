@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-center align-items-center">
             <div class="col">
-                <div class="col d-flex justify-content-center align-items-center flex-sm-row flex-column">
+                <div class="col d-flex justify-content-center align-items-center flex-sm-row flex-column flex-wrap">
                     <a class="px-4 py-3" href="http://zastone.ba" title="U.G. Zašto ne?" id="footer-zastone-logo"><img src="/2018/images/zasto_ne_logo.svg" alt="logo zastone.ba" /></a>
                     <a class="px-4 py-3" href="http://cpu.org.ba" title="CPU" id="footer-cpu-logo"><img src="/2018/images/cpu_logo.svg" alt="logo CPU" /></a>
                     <a class="px-4 py-3" href="{$text['url']}" title="{$text['title']}" id="footer-glasometar-logo"><img src="/2018/images/glasometar_logo.svg" alt="logo glasometar.ba" /></a>
