@@ -13,7 +13,7 @@ $text = [
   'keywords'    => 'Izbori 2018, Izbori BiH, Glasometar, glasometar kviz',
 
   //fb
-  'og:image' => 'https://glasometar.ba/image/glasometar_logo.png',
+  'og:image' => 'https://www.glasometar.ba/image/glasometar_logo.png',
   //'og:title' => 'Volební kalkulačka',
   //'og:url' => 'http://volebnikalkulacka.cz',
   //'og:site_name' => 'Volební kalkulačka',
@@ -21,12 +21,12 @@ $text = [
   'licence'     => 'Creative Commons BY 4.0',
   'year'        => '2018',
 
-  'footer_text' => '<a href="http://glasometar.ba">Glasometar.ba</a> <br/> <a href="http://www.votematch.eu/">VoteMatchEurope</a>',
+  'footer_text' => '<a href="https://www.glasometar.ba">Glasometar.ba</a> <br/> <a href="http://www.votematch.eu/">VoteMatchEurope</a>',
 
   'calc'    => 'Glasometar 2018',
   'info'    => 'Info',
   'contact' => 'Kontakt',
-  'url'     => 'http://glasometar.ba',
+  'url'     => 'https://www.glasometar.ba',
   'title'   => 'Glasometar 2018' ,
 
    //PAGE
@@ -53,7 +53,7 @@ $text = [
 
    //fb
   'result_fb_appid'             => "346936452142574",
-  'result_fb_picture_link'      => 'http://glasometar.ba/image/glasometar_logo.png',
+  'result_fb_picture_link'      => 'https://www.glasometar.ba/2018/images/glasometar_logo.png',
   'result_fb_name'              => 'Glasometar.ba',
   'result_fb_description_1'     => 'Moji stavovi se najviše podudaraju sa ovim partijama: ',
   'result_fb_description_match' => 'Slaganje',
@@ -61,10 +61,10 @@ $text = [
   'result_fb_description_only'  => 'samo',
   'result_fb_description_2'     => 'Najmanje: ',
   'result_fb_description_3'     => 'Sa kojom partijom se najvise slažete - Glasometar.ba',
-  'result_fb_redirect_link'     => 'http://glasometar.ba',
-  'result_fb_link'              => 'http://glasometar.ba/',
+  'result_fb_redirect_link'     => 'https://www.glasometar.ba',
+  'result_fb_link'              => 'https://www.glasometar.ba/',
   'result_fb_hashtag'           => '#Glasometar2018',
-  'result_fb_action'            => "[{'name':'Za koga ćete glasati?','link':'http://glasometar.ba/'}]",
+  'result_fb_action'            => "[{'name':'Za koga ćete glasati?','link':'https://www.glasometar.ba/'}]",
 
    //tabs
    'result_results'    => 'Rezultati',
