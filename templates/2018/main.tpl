@@ -13,6 +13,8 @@
     <meta property="og:image" content="{$text['og:image']}" />
     <meta property="og:title" content="{$text['calc']}" />
     <meta property="og:url" content="{$text['url']}" />
+    <meta property="og:description" content="{$text['result_fb_description']}" />
+    <meta property="fb:app_id" content="{$text['result_fb_appid']}" />
     <meta property="og:site_name" content="{$text['calc']}" />
     <meta property="og:type" content="website" />
     {block name=additionalHead}{/block}
