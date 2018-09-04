@@ -8,7 +8,18 @@
     <meta name="description" content="{$text['description']}">
     <meta name="keywords" content="{$text['keywords']}">
     <meta name="author" content="{$text['author']}">
-    <link type="image/x-icon" href="../../image/favicon.ico" rel="shortcut icon">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/2018/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/2018/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/2018/images/favicon-16x16.png">
+    <link rel="manifest" href="/2018/images/site.webmanifest">
+    <link rel="mask-icon" href="/2018/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/2018/images/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Glasometar">
+    <meta name="application-name" content="Glasometar">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/2018/images/browserconfig.xml">
+    <meta name="theme-color" content="#333333">
 
     <meta property="og:image" content="{$text['og:image']}" />
     <meta property="og:title" content="{$text['calc']}" />
