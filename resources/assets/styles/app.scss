@@ -220,8 +220,8 @@ footer img{
 }
 
 .weightsel-button {
-    white-space: normal;
-    text-align: left;
+  white-space: normal;
+  text-align: left;
 }
 
 .weightsel {
@@ -238,9 +238,15 @@ button, html [type="button"], [type="reset"], [type="submit"] {
 }
 
 .nav-link{
-  font-size: .75em;
+  font-size: 1.25em;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+@include media-breakpoint-up(sm) {
+  .nav-link{
+    font-size: .75em;
+  }
 }
 
 .nav-tabs {
@@ -267,4 +273,10 @@ button, html [type="button"], [type="reset"], [type="submit"] {
     padding: 0.75rem;
     vertical-align: top;
     border-top: none;
+}
+
+.card {
+  &.winner {
+    padding: 0;
+  }
 }
