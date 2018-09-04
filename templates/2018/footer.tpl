@@ -15,7 +15,8 @@
                 </div>
                 <div class="col text-center py-5 small">
                     <p>
-                        <strong>Glasometar.ba</strong> pripremili i vode <strong>U.G. Zašto ne </strong> <a href="http://zastone.ba">U.G. Zašto ne</a> <br>
+                        <strong>Glasometar.ba</strong> pripremili i vode <strong>U.G. Zašto ne </strong> <a href="http://zastone.ba">U.G. Zašto ne</a>
+                        <br>
                         <a href="mailto:info@zastone.ba">info@zastone.ba</a>
                     </p>
                     <p>{$text['licence']} | <a href="{$text['author_link']}" id="footer-kohovolit-licence">{$text['author']}</a> {$text['year']}</p>
