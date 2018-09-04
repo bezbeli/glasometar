@@ -5,7 +5,7 @@ import json
 
 i = 0
 questions = []
-with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/backend/source/questions.tsv','r') as f:
+with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/backend/data/questions.tsv','r') as f:
   csvreader = csv.reader(f,delimiter="\t")
   for row in csvreader:
     if i == 0:
@@ -26,6 +26,6 @@ questions = sorted(questions, key=lambda x:x['order'])
 print questions
 
 #save file
-with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/questions.json', 'w') as outfile:
+with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/json/questions.json', 'w') as outfile:
   json.dump(questions, outfile)
 outfile.close()

@@ -7,27 +7,33 @@
 
 /* note: must be first, before the logos/photos */
 .sprite {
-  background: url('/2018/images/partije.png') no-repeat top left;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-image: url('/2018/images/partije.png');
 }
 
-.sprite-BOSS{ background-position: 0 0; width: 80px; height: 80px; }
-.sprite-DF{ background-position: 0 -130px; width: 80px; height: 80px; }
-.sprite-DNS{ background-position: 0 -260px; width: 80px; height: 80px; }
-.sprite-DNZ{ background-position: 0 -390px; width: 80px; height: 80px; }
-.sprite-HDZ{ background-position: 0 -520px; width: 80px; height: 80px; }
-.sprite-HDZ1990{ background-position: 0 -650px; width: 80px; height: 80px; }
-.sprite-HSP{ background-position: 0 -780px; width: 80px; height: 80px; }
-.sprite-NS{ background-position: 0 -910px; width: 80px; height: 80px; }
-.sprite-NSRzB{ background-position: 0 -1040px; width: 80px; height: 80px; }
-.sprite-PDP{ background-position: 0 -1170px; width: 80px; height: 80px; }
-.sprite-PS{ background-position: 0 -1300px; width: 80px; height: 80px; }
-.sprite-SBB{ background-position: 0 -1430px; width: 80px; height: 80px; }
-.sprite-SBiH{ background-position: 0 -1560px; width: 80px; height: 80px; }
-.sprite-SDA{ background-position: 0 -1690px; width: 80px; height: 80px; }
-.sprite-SDP{ background-position: 0 -1820px; width: 80px; height: 80px; }
-.sprite-SDS{ background-position: -130px 0; width: 80px; height: 80px; }
-.sprite-SNSD{ background-position: -130px -130px; width: 80px; height: 80px; }
-.sprite-SP{ background-position: -130px -260px; width: 80px; height: 80px; }
+.bg-GS {background-position: -110px -10px;}
+.bg-NDP {background-position: -1010px -10px;}
+.bg-US {background-position: -210px -10px;}
+.bg-BOSS {background-position: -310px -10px;}
+.bg-DF {background-position: -410px -10px;}
+.bg-DNS {background-position: -510px -10px;}
+.bg-DNZ {background-position: -610px -10px;}
+.bg-HDZ {background-position: -710px -10px;}
+.bg-HDZ1990 {background-position: -810px -10px;}
+.bg-HSP {background-position: -910px -10px;}
+.bg-NS {background-position: -10px -10px;}
+.bg-NSRzB {background-position: -1110px -10px;}
+.bg-PDP {background-position: -1210px -10px;}
+.bg-PS {background-position: -1310px -10px;}
+.bg-SBB {background-position: -1410px -10px;}
+.bg-SBiH {background-position: -1510px -10px;}
+.bg-SDA {background-position: -1610px -10px;}
+.bg-SDP {background-position: -1710px -10px;}
+.bg-SDS {background-position: -1810px -10px;}
+.bg-SNSD {background-position: -1910px -10px;}
+.bg-SP {background-position: -2010px -10px;}
 
 .wrapper {
   display: flex;

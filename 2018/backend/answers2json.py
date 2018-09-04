@@ -18,7 +18,7 @@ def vote2vote (vote):
 # read voters
 i = 0
 voters = {}
-with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/backend/source/voters.tsv','r') as f:
+with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/backend/data/voters.tsv','r') as f:
   csvreader = csv.reader(f,delimiter="\t")
   for row in csvreader:
     if i == 0:
@@ -38,12 +38,12 @@ with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/backend/source/voters
 i = 0
 details = {}
 print ("Mismatching codes:")
-with open('/Applications/AMPPS/www/zastone.ba/glasometar.ba/2014/backend/source/answers.tsv','r') as f:
+with open('/Volumes/Untitled/enes/sites/glasometar.ba/2018/backend/data/answers.tsv','r') as f:
   csvreader = csv.reader(f,delimiter="\t")
   for row in csvreader:
     if i == 0:
       questions = {} # col: id
-      for j in range(0,32):
+      for j in range(0,33):
         col = (4 + 2*j)
         questions[col] = re.search('\d*', row[col]).group(0)
       #print questions

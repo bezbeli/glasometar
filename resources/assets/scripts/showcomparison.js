@@ -7,7 +7,7 @@ $('#modal').on('show.bs.modal', function(e) {
     if (typeof(questions) == "undefined") {
         //load answers
         $.ajax({
-            url: '../questions.json',
+            url: '../json/questions.json',
             success: function(data) {
                 var questions = data;
                 create_comparison(questions);

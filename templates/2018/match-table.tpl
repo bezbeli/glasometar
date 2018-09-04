@@ -8,7 +8,7 @@
                     <div class="row justify-content-between">
                         <div class="w-75">
                             <div class="media">
-                                <img src="../images/1x1.png" class="sprite sprite-{$results[$i].{$config->table_sprite}} img-rounded media-object pull-left" alt="{$results[$i].{$config->table_alt}}" title="{$results[$i].{$config->table_title}}" />
+                                <div class="sprite bg-{$results[$i].{$config->table_sprite}} pull-left"></div>
                                 <div class="media-body inside-media px-3">
                                     <h4 class="list-group-item-heading ">{$results[$i].{$config->table_main}}</h4>
                                     <p class="list-group-item-text hidden-xs">{$results[$i].{$config->table_additional}}</p>
