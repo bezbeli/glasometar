@@ -13,7 +13,7 @@ $text = [
   'keywords'    => 'Izbori 2018, Izbori BiH, Glasometar, glasometar kviz',
 
   //fb
-  'og:image' => 'https://www.glasometar.ba/2018/images/glasometar_logo.png',
+  'og:image' => 'https://www.glasometar.ba/2018/images/fb_cover.png',
   //'og:title' => 'Volební kalkulačka',
   //'og:url' => 'http://volebnikalkulacka.cz',
   //'og:site_name' => 'Volební kalkulačka',
@@ -53,7 +53,7 @@ $text = [
 
    //fb
   'result_fb_appid'             => "346936452142574",
-  'result_fb_picture_link'      => 'https://www.glasometar.ba/2018/images/glasometar_logo.png',
+  'result_fb_picture_link'      => 'https://www.glasometar.ba/2018/images/fb_cover.png',
   'result_fb_name'              => 'Glasometar.ba',
   'result_fb_description_1'     => 'Moji stavovi se najviše podudaraju sa ovim partijama: ',
   'result_fb_description_match' => 'Slaganje',
