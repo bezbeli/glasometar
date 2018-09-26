@@ -1,5 +1,5 @@
-sftp-config.json
 node_modules
+sftp-config.json
 vendor
 .DS_Store
 */.DS_Store
